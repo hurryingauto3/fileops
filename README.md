@@ -24,6 +24,7 @@ A cloud-native document processing platform built for speed, scale, and security
 ## 🚄 Processing Pipeline
 
 ```mermaid
+graph LR
     A[Client Upload] --> B[API Gateway]
     B --> C[S3 Storage]
     C --> D[Message Queue]
